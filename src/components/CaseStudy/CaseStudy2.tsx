@@ -52,23 +52,23 @@ const CaseStudy2: React.FC = () => {
 
       <div className="space-y-6 text-[#BBBBBB]">
         <p className="text-lg leading-relaxed">
-        In 2024, seeing a lack of a modern, ad-free, and simple digital dictionary for Indonesian and English speakers, this project was initiated. The goal was to create a fast and user-friendly web application for seamless two-way translation, accessible on all devices.
+        In 2024, as online travel platforms grew increasingly complex and cluttered, I initiated RoamFree to explore how a clean, real-time flight booking experience could look. The aim was to let users quickly search, filter, and view flight results with minimal latency, while still being easy to use across devices.
         </p>
         <p className="text-lg leading-relaxed">
-        My role involved full-stack development, from architecting the back-end logic to designing the intuitive front-end user interface. Key challenges included sourcing a comprehensive and reliable dictionary API, optimizing data retrieval for minimal latency, and ensuring a fully responsive layout that looks great on both desktop and mobile.
+        led development end-to-end, integrating an external Flight API to fetch live data, designing efficient backend caching strategies to handle large datasets, and building a Next.js front-end for server-side rendering and SEO. The toughest part was optimizing query performance so results appeared in real-time without overwhelming the system.
         </p>
         <p className="text-lg leading-relaxed">
-        This project not only provided a valuable tool for language learners but also demonstrated a strong blend of API integration, responsive web design, and user-centric development.
+        The project served as a strong case study in API integration, caching optimization, and real-time data handling—all crucial skills for building scalable applications.
         </p>
 
         <div className="mt-8 pt-6 border-t border-gray-700">
           <h3 className="text-xl sm:text-2xl font-semibold text-white mb-4">Technologies Used:</h3>
           <ul className="list-disc list-inside grid grid-cols-1 sm:grid-cols-2 gap-2 text-base">
-            <li>Front-End: React, Tailwind CSS</li>
+            <li>Front-End: Next.js, Tailwind CSS</li>
             <li>Back-End: Node.js, Express.js</li>
-            <li>Database: MongoDB, Firebase</li>
-            <li>API: Dictionary API</li>
-            <li>Git & GitHub (Version Control)</li>
+            <li>Database: MongoDB (with caching layer)</li>
+            <li>API: Amadeus API / AviationStack</li>
+            <li>Deployment: Vercel, Mongo Atlas</li>
           </ul>
         </div>
       </div>

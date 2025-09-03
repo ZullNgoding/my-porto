@@ -52,23 +52,24 @@ const CaseStudy4: React.FC = () => {
 
       <div className="space-y-6 text-[#BBBBBB]">
         <p className="text-lg leading-relaxed">
-        In 2024, seeing a lack of a modern, ad-free, and simple digital dictionary for Indonesian and English speakers, this project was initiated. The goal was to create a fast and user-friendly web application for seamless two-way translation, accessible on all devices.
+        In 2024, recognizing the need for lightweight, user-friendly tools that combine project management and team communication, I built TeamFlow, a SaaS prototype designed to help small teams organize tasks and chat in real-time. The goal was to create a streamlined platform that integrates Kanban boards with live chat, enabling teams to manage projects without switching between multiple tools.
         </p>
         <p className="text-lg leading-relaxed">
-        My role involved full-stack development, from architecting the back-end logic to designing the intuitive front-end user interface. Key challenges included sourcing a comprehensive and reliable dictionary API, optimizing data retrieval for minimal latency, and ensuring a fully responsive layout that looks great on both desktop and mobile.
+        My role covered full-stack development, from building secure user authentication to designing an intuitive Kanban drag-and-drop interface. The biggest challenges were implementing real-time communication with Socket.io and ensuring smooth synchronization of tasks across multiple clients.
         </p>
         <p className="text-lg leading-relaxed">
-        This project not only provided a valuable tool for language learners but also demonstrated a strong blend of API integration, responsive web design, and user-centric development.
+        This project highlighted my ability to design scalable back-end systems and intuitive UIs, while demonstrating how real-time features can significantly improve collaboration.
         </p>
 
         <div className="mt-8 pt-6 border-t border-gray-700">
           <h3 className="text-xl sm:text-2xl font-semibold text-white mb-4">Technologies Used:</h3>
           <ul className="list-disc list-inside grid grid-cols-1 sm:grid-cols-2 gap-2 text-base">
-            <li>Front-End: React, Tailwind CSS</li>
+            <li>Front-End: React, Tailwind CSS, shadcn/ui</li>
             <li>Back-End: Node.js, Express.js</li>
-            <li>Database: MongoDB, Firebase</li>
-            <li>API: Dictionary API</li>
-            <li>Git & GitHub (Version Control)</li>
+            <li>Database: PostgreSQL</li>
+            <li>Real-Time: Socket.io</li>
+            <li>Authentication: JWT</li>
+            <li>Delpoyment: Vercel, Railway</li>
           </ul>
         </div>
       </div>
