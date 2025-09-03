@@ -1,4 +1,5 @@
 import React from 'react';
+import Coffee from '../../assets/Demo/Coffee1.jpeg';
 
 
 const CaseStudy3: React.FC = () => {
@@ -34,16 +35,16 @@ const CaseStudy3: React.FC = () => {
         </div>
       </div>
 
-      {/* Kamus Project*/}
+      {/* Coffee E-commerce Project*/}
       <h2 className="text-3xl sm:text-4xl font-extrabold mb-8 text-left leading-tight">
-        Kamus Indonesia - Inggris App
+        CoffeeVerse - E-Commerce Coffee Shop
       </h2>
       
       {/* Gambar Demo */}
       <div className="mb-8 rounded-lg overflow-hidden shadow-md">
         <img
-          src="https://i.ibb.co/7W8c1yK/Screen-Shot-2024-10-08-at-12-52-26-AM.png"
-          alt="Kamus App Demo"
+          src={Coffee}
+          alt="Coffee Shop App Demo"
           className="w-full h-auto object-cover"
           loading="lazy"
         />

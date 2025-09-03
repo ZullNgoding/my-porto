@@ -1,4 +1,5 @@
 import React from 'react';
+import Booking from '../../assets/Demo/Booking-Flight1.jpeg';
 
 
 const CaseStudy2: React.FC = () => {
@@ -34,16 +35,16 @@ const CaseStudy2: React.FC = () => {
         </div>
       </div>
 
-      {/* Kamus Project*/}
+      {/* Booking Flight Project*/}
       <h2 className="text-3xl sm:text-4xl font-extrabold mb-8 text-left leading-tight">
-        Kamus Indonesia - Inggris App
+        RoamFree App - Booking Flight App
       </h2>
       
       {/* Gambar Demo */}
       <div className="mb-8 rounded-lg overflow-hidden shadow-md">
         <img
-          src="https://i.ibb.co/7W8c1yK/Screen-Shot-2024-10-08-at-12-52-26-AM.png"
-          alt="Kamus App Demo"
+          src={Booking}
+          alt="Booking Flight"
           className="w-full h-auto object-cover"
           loading="lazy"
         />
