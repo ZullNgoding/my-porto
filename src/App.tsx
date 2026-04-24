@@ -1,10 +1,7 @@
-// src/App.tsx
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import CaseStudy1 from "./components/CaseStudy/CaseStudy1";
-import CaseStudy2 from "./components/CaseStudy/CaseStudy2";
-import CaseStudy3 from "./components/CaseStudy/CaseStudy3";
-import CaseStudy4 from "./components/CaseStudy/CaseStudy4";
+import Info from "./components/Info";
+import CaseStudy from "./components/CaseStudy";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,10 +10,8 @@ function App() {
       {<Header />}
       <main className="flex flex-col items-center">
          <Hero /> 
-         <CaseStudy1 />
-         <CaseStudy2 />
-         <CaseStudy3 />
-         <CaseStudy4 />
+         <Info />
+         <CaseStudy />
       </main>
       <Footer />
     </div>

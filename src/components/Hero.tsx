@@ -1,9 +1,7 @@
 const Hero: React.FC = () => {
     return (
       <section className="mt-6 py-6 min-h-screen flex flex-col items-center justify-center text-center">
-        {/* Mac-like Browser Frame */}
         <div className="bg-gradient-to-b from-[#1F2026] via-[#2A2C33] to-[#1F2026] rounded-2xl shadow-xl p-10 max-w-3xl">
-          {/* Browser buttons */}
           <div className="h-5 flex space-x-2 mb-6">
             <span className="w-3 h-3 bg-[#FF5F57] rounded-full"></span>
             <span className="w-3 h-3 bg-[#FFBD2E] rounded-full"></span>
@@ -21,7 +19,6 @@ const Hero: React.FC = () => {
           </p>
         </div>
   
-        {/* Scroll Arrow */}
         <div className="mt-20 animate-bounce text-[#666666] text-2xl">
           ↓
         </div>

@@ -35,12 +35,10 @@ const CaseStudy2: React.FC = () => {
         </div>
       </div>
 
-      {/* Booking Flight Project*/}
       <h2 className="text-3xl sm:text-4xl font-extrabold mb-8 text-left leading-tight">
         RoamFree App - Booking Flight App
       </h2>
       
-      {/* Gambar Demo */}
       <div className="mb-8 rounded-lg overflow-hidden shadow-md">
         <img
           src={Booking}

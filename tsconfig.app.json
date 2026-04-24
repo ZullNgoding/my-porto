@@ -9,7 +9,6 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /* Bundler mode (Vite/CRA) */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
@@ -17,13 +16,11 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    /* Aliases */
     "baseUrl": "./src",
     "paths": {
       "@/*": ["*"]
     },
 
-    /* Linting / strictness */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,

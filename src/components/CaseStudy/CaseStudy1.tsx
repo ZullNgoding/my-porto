@@ -35,12 +35,10 @@ const CaseStudy1: React.FC = () => {
         </div>
       </div>
 
-      {/* Kamus Project*/}
       <h2 className="text-3xl sm:text-4xl font-extrabold mb-8 text-left leading-tight">
         Kamus Indonesia - Inggris App
       </h2>
       
-      {/* Gambar Demo */}
       <div className="mb-8 rounded-lg overflow-hidden shadow-md">
         <img
           src={Kamus}
